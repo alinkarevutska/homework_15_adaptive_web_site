@@ -1,0 +1,8 @@
+.background-container, .container {
+    border: 1px solid black;
+}
+.background-container {
+    @media screen and (max-width: 992px) {
+        background-color: green;
+    }
+}

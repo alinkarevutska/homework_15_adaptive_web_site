@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Lato", sans-serif;
+}
+.header {
+    background: url(../img/hero-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header__logo {
+    margin-top: 250px;
+}
+.header__description {
+    max-width: 580px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+.header__title {
+    padding-top: 80px;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+.header__subtitle {
+    padding-top: 30px;
+    line-height: 35px;
+    font-weight: 400;
+    word-spacing: 2px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}
+fieldset {
+    margin: 100px auto 0 auto;
+    padding: 0 auto 0 auto;
+    max-width: 900px;
+    text-align: center;
+    border: 2px solid #000;
+}
+legend {
+    padding: 0 30px 0 30px;
+    margin: 0 auto 30px auto;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.block__text {
+    padding: 0 180px 30px 180px;
+    font-size: 15px;
+    line-height: 25px;
+}
+.services {
+    background: url(../img/services.jpg) no-repeat;
+    background-position: center center;
+    color: #fff;
+    margin-top: 155px;
+}
+.services__block {
+    border: 2px solid #fff;
+    position: relative;
+    top: -50px;
+}
+.directions__img {
+    padding: 60px 0 30px 0;
+}
+.directions__subtitle {
+    padding-bottom: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.text_last {
+  margin-bottom: 60px;  
+}
+.navigation__block {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+.nav_block_1 {
+    margin-top: 90px;
+}
+.nav_block_2 {
+    margin-top: 7px;
+}
+.nav_article {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 33%;
+    background-position: center center;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 170px 0 40px 40px;
+}
+.topworkz {
+    background: url(../img/topworks.jpg) no-repeat;
+    background-size: cover;
+}
+.joint {
+    background: url(../img/joint.jpg) no-repeat;
+    background-size: cover;
+}
+.market {
+    background: url(../img/market.jpg) no-repeat;
+    background-size: cover;
+}
+.worktop {
+    background: url(../img/worktop.jpg) no-repeat;
+    background-size: cover;
+}
+.lable {
+    background: url(../img/lable.jpg) no-repeat; 
+    background-size: cover;
+}
+.kyiv {
+    background: url(../img/kyiv.jpg) no-repeat;
+    background-size: cover;
+}
+.contact_us__button {
+    margin-bottom: 40px;
+    padding: 15px 120px 15px 120px;
+    border: 1px solid #000;
+    background: #3c3c3c;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.contact_us__button:hover {
+    background: #fff;
+    color: #3c3c3c;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer_text {
+    padding: 65px 0 65px 0;
+}
+.footer__logo {
+    margin-right: 30px;
+}
+.container {
+  width: 100%;
+  max-width: 2200px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 992px){
+  .header {
+    background-position: center right;
+  }
+  .container {
+    width: 95%;
+    max-width: 960px;
+  }
+  .block__text {
+    padding: 0 100px 30px 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__title {
+    font-size: 30px;
+    letter-spacing: normal;
+  }
+  .header__subtitle {
+    word-spacing: normal;
+    padding: 20px 50px 0 50px;
+  }
+  .container {
+    width: 93%;
+    max-width: 720px;
+  }
+  .block__text {
+    padding: 0 60px 30px 60px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header__subtitle {
+    word-spacing: normal;
+    padding: 20px 20px 0 20px;
+  }
+  .block__text {
+    padding: 0 30px 30px 30px;
+  }
+  .directions__img {
+    padding: 30px 0 15px 0;
+  }
+  .directions__subtitle {
+    padding-bottom: 15px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
